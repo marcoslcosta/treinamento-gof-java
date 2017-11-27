@@ -7,7 +7,7 @@ public class Linha extends Figura{
 	@Override
 	public void desenha(String cor) {
 
-		System.out.println("Figura linha" + cor);
+		System.out.println("Figura linha " + cor);
 	}
 
 }
