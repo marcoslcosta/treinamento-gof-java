@@ -1,0 +1,18 @@
+
+public class Vetor {
+
+	AlgoritmoOrdenacao algoritmo;
+	
+	public Vetor(AlgoritmoOrdenacao algoritmo)
+	{
+		this.algoritmo = algoritmo;
+	}
+	
+	public void setAlgoritmo(AlgoritmoOrdenacao algoritmo){
+		this.algoritmo = algoritmo;
+	}
+	
+	public void ordernar() {
+		this.algoritmo.sort();
+	}
+}

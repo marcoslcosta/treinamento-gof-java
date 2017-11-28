@@ -1,7 +1,9 @@
 
 public class Oval extends Figura{
 	public boolean preenchido;
+	
 	public Oval(boolean preenchido) {
+		super();
 		this.preenchido = preenchido;
 	}
 
